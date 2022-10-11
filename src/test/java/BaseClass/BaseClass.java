@@ -12,7 +12,7 @@ public class BaseClass {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
-        driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+        driver.get("https://demo.nopcommerce.com/");
         pageFactory = new PageFactory(driver);
     }
 
