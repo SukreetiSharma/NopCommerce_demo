@@ -15,5 +15,7 @@ public class BaseClass {
         driver.get("https://demo.nopcommerce.com/");
         pageFactory = new PageFactory(driver);
     }
-
+    public static void browserClose(){
+        driver.close();
+    }
 }
